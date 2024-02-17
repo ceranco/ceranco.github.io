@@ -9,15 +9,21 @@ description = "My personal website"
 compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
+build_search_index = true
 
 # The site theme to use
 theme = "blow"
 
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+# When set to "true", all code blocks are highlighted.
 highlight_code = false
+# The theme to use for code highlighting.
+# See below for list of allowed values.
+highlight_theme = "css"
+highlight_themes_css = [
+  { theme = "base16-ocean-dark", filename = "syntax-dark.css" },
+  { theme = "base16-ocean-light", filename = "syntax-light.css" },
+]
 
 [extra]
 enable_search = true
