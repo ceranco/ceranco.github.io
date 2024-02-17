@@ -1,6 +1,10 @@
 # The URL the site will be built for
 base_url = "https://ceranco.github.io"
 
+# The site title and description; used in feeds by default.
+title = "ceranco"
+description = "My personal website"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
@@ -17,7 +21,7 @@ highlight_code = false
 
 [extra]
 enable_search = true
-enable_sidebar = true
+enable_sidebar = false
 enable_adsense = false
 enable_multilingue = false
 
@@ -25,29 +29,21 @@ enable_multilingue = false
 items = [
     { lang = "en", links = [
         { url = "/", name = "Home" },
-        { url = "/categories", name = "Categories" },
-        { url = "/tags", name = "Tags" },
-    ] },
-]
-title = "Eran's Blog"
-
-[extra.sidebar]
-items = [
-    { lang = "en", links = [
-        { url = "/markdown", name = "Markdown" },
         { url = "/blog", name = "Blog" },
+        { url = "/projects", name = "Projects" },
     ] },
 ]
+title = "ceranco"
 
 # Index page
 [extra.index]
-title = "Main title"
-image = "https://via.placeholder.com/200"
+title = "Eran Cohen"
+image = "face.png"
 image_alt = "Placeholder text describing the index's image."
 
 [extra.default_author]
-name = "John Doe"
-avatar = "https://via.placeholder.com/200"
+name = "Eran Cohen"
+avatar = "face.png"
 avatar_alt = "Placeholder text describing the default author's avatar."
 
 [extra.social]
@@ -63,9 +59,9 @@ email = "ceranco@gmail.com"
 
 [extra.favicon]
 favicon = "/icons/favicon.ico"
-favicon_16x16 = "/icons/favicon-16x16.png"
-favicon_32x32 = "/icons/favicon-32x32.png"
-apple_touch_icon = "/icons/apple-touch-icon.png"
-android_chrome_512 = "/icons/android-chrome-512x512.png"
-android_chrome_192 = "/icons/android-chrome-192x192.png"
-manifest = "/icons/site.webmanifest"
+favicon_16x16 = "icons/favicon-16x16.png"
+favicon_32x32 = "icons/favicon-32x32.png"
+apple_touch_icon = "icons/apple-touch-icon.png"
+android_chrome_512 = "icons/android-chrome-512x512.png"
+android_chrome_192 = "icons/android-chrome-192x192.png"
+manifest = "icons/site.webmanifest"
