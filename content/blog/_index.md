@@ -1,7 +1,7 @@
 +++
 title = "Blog"
 description = "Blog posts"
-tempate = "section.html"
+template = "section.html"
 page_template = "page.html"
 sort_by = "date"
 +++
