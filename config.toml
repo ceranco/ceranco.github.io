@@ -44,12 +44,12 @@ title = "ceranco"
 # Index page
 [extra.index]
 title = "Eran Cohen"
-image = "face.png"
+image = "/face.png"
 image_alt = "Placeholder text describing the index's image."
 
 [extra.default_author]
 name = "Eran Cohen"
-avatar = "face.png"
+avatar = "/face.png"
 avatar_alt = "Placeholder text describing the default author's avatar."
 
 [extra.social]
