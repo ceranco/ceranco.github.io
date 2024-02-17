@@ -21,13 +21,13 @@ taxonomies = [
 
 [markdown]
 # When set to "true", all code blocks are highlighted.
-highlight_code = false
+highlight_code = true
 # The theme to use for code highlighting.
 # See below for list of allowed values.
 highlight_theme = "css"
 highlight_themes_css = [
-  { theme = "base16-ocean-dark", filename = "syntax-dark.css" },
-  { theme = "base16-ocean-light", filename = "syntax-light.css" },
+  { theme = "base16-ocean-dark", filename = "css/syntax-dark.css" },
+  { theme = "base16-ocean-light", filename = "css/syntax-light.css" },
 ]
 
 [extra]
@@ -49,13 +49,11 @@ title = "ceranco"
 # Index page
 [extra.index]
 title = "Eran Cohen"
-image = "/face.png"
-image_alt = "Placeholder text describing the index's image."
+image = "/assets/face.png"
 
 [extra.default_author]
 name = "Eran Cohen"
-avatar = "/face.png"
-avatar_alt = "Placeholder text describing the default author's avatar."
+avatar = "/assets/face.png"
 
 [extra.social]
 codeberg = ""

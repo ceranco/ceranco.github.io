@@ -19,13 +19,8 @@ As I read this, I started wondering what EPUB files actually look like, and thou
 
 So without further ado, let's get started!
 
-`To get the full information on the EPUB format, I recommend reading the [EPUB 3.3 specification](https://www.w3.org/TR/epub-33/).`
-
-```rust
-let x = 5;
-
-```
-
+> Note:
+> To get the full information on the EPUB format, I recommend reading the [EPUB 3.3 specification](https://www.w3.org/TR/epub-33/).
 
 # What is an EPUB file?
 EPUB is a file format for digital books. It's based on XML and can contain text, images, and metadata.
