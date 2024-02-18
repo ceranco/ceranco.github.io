@@ -5,7 +5,8 @@ description = "Understanding the EPUB file format by writing a simple viewer."
 date = "2024-02-17" 
 
 [taxonomies]
-categories = ["epub", "rust", "gui", "iced"]
+categories = ["project"]
+tags = ["epub", "rust", "gui", "iced"]
 
 [extra]
 toc = true
@@ -24,7 +25,6 @@ To get the full information on the EPUB format, I recommend reading the [EPUB 3.
 {% end %}
 
 # What is an EPUB file?
-EPUB is a file format for digital books. It's based on XML and can contain text, images, and metadata.
-
-An EPUB file is essentially a ZIP file (formally called the *EPUB container*) with a specific structure. 
-![](/assets/1_epub/epub.svg "EPUB structure")
+EPUB is a file format for digital books. It's based on XML and can contain text, images, and metadata.  
+It is essentially a ZIP file (formally called the *EPUB container*) with a specific structure: 
+{{img(src="/assets/1_epub/epub.svg", title="EPUB structure", width="60%", center=true)}}
