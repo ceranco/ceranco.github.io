@@ -1,0 +1,5 @@
+<div class="alert alert-{{ type }}">
+	<div class="alert-icon icon-{{ type }}"></div>
+	<p class="alert-title">{{ title }}</p>
+	<p class="alert-body">{{ body | markdown(inline=true) | safe }}</p>
+</div>
