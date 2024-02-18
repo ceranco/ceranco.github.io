@@ -28,8 +28,8 @@ div.alert-x {
 }
 
 #page-content div.alert-icon {
-	width: 1.25em;
-	height: 1.25em;
+	width: 1.4em;
+	height: 1.4em;
 	margin-right: 0.5em;
 	display: inline-block;
 	mask-size: 100%;
@@ -44,7 +44,7 @@ div.alert-x {
 #page-content p.alert-body {
 	padding-top: 0.5em;
 	padding-bottom: 0.25em;
-	padding-left: 2em;
+	padding-left: 2.25em;
 }
 
 div.icon-check {
