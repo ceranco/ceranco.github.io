@@ -34,7 +34,13 @@
 
 	<title>
 		{% block title %}
-		{{ config.title }}
+		{% if section.title %}
+			{{ section.title }}
+		{% elif page.title %}
+			{{ page.title }}
+		{% else %}
+			{{ config.title }}
+		{% endif %}
 		{% endblock title %}
 	</title>
 </head>
