@@ -27,4 +27,4 @@ To get the full information on the EPUB format, I recommend reading the [EPUB 3.
 # What is an EPUB file?
 EPUB is a file format for digital books. It's based on XML and can contain text, images, and metadata.  
 It is essentially a ZIP file (formally called the *EPUB container*) with a specific structure: 
-{{img(src="/assets/1_epub/epub.svg", title="EPUB structure", width="60%", center=true)}}
+{{img(src="/assets/1_epub/epub.svg", title="EPUB structure", width="100%", maxwidth="550px", center=true)}}

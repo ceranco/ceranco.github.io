@@ -1,4 +1,4 @@
 <div style="display: flex; justify-content: center;">
-	<img src="{{ src }}" {% if title %} title="{{ title }}" {% endif %} {% if width %} width="{{ width }}" {% endif %}
-		{% if height %} height="{{ height }}" {% endif %} />
-</div>
+	<img src="{{ src }}" {% if title %} title="{{ title }}" {% endif %}
+		style="{% if width %} width:{{ width }}; {% endif %} {% if maxwidth %} max-width:{{ maxwidth }}; {% endif %} />"
+		</div>
